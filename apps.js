@@ -121,6 +121,8 @@ console.log("💻 JavaScript Function Assignment")
 
 // console.log(num(4,4));
 
+
+
 // // 10. compareNumbers
 // // Create a function that returns "Greater" if the first number is greater than the second,else return "Smaller".
 // function num(v1, v2){
@@ -143,6 +145,8 @@ console.log("💻 JavaScript Function Assignment")
 // }
 // console.log(num("mohammed" , "Ahmed"));
 
+
+
 // 12. getGrade
 // Create a function that takes a number (0–100) and returns:
 // ● "Pass" if the score is 40 or more
@@ -155,6 +159,9 @@ console.log("💻 JavaScript Function Assignment")
 //     }
 // }
 // console.log(num(39));
+
+
+
 // 13. isTeenager
 // Write a function that takes an age and returns "Teenager" if the age is between 13 and 19, otherwise return "Not a Teenager".
 // function num (v1 ){
@@ -168,6 +175,8 @@ console.log("💻 JavaScript Function Assignment")
 // }
 // console.log(num(12));
 
+
+
 // 14. greetUser
 // Write a function that takes a name and returns a greeting like "Hello, Ahmed!".
 // function num(v1){
@@ -178,22 +187,67 @@ console.log("💻 JavaScript Function Assignment")
 // console.log(num("mir Mohammed Ahmed Dehwar"));
 
 
-
-
-
-
 // 15. isEligibleToVote
-// Create a function that takes age and returns "Eligible" if age is 18 or above,
-// otherwise "Not Eligible".
+// Create a function that takes age and returns "Eligible" if age is 18 or above,otherwise "Not Eligible".
+// function age(v1) {
+//    if (v1>=18) {
+//        return("'eligible'");
+       
+       
+//     } else {
+        
+//         return("'not eligible'");
+//    } 
+// }
+// console.log(age(15));
+
+
 // 16. findAbsoluteValue
-// Write a function that returns the absolute value of a number (no Math.abs, use if-else
-// only).
+// Write a function that returns the absolute value of a number (no Math.abs, use if-else only).
+// function num(v1 ) {
+//     if (v1 < 0 ){
+//         return -v1 ;
+//     }else{
+//         return v1;
+//     }
+    
+// }
+
+// console.log(num(812));
+
+
 
 // 17. checkTemperature
 // Write a function that takes a temperature and returns:
 // ● "Hot" if temperature is above 30
 // ● "Cold" if below 10
 // ● "Normal" otherwise
+
+function temp(v1) {
+    if (v1>=30) {
+        console.log("'ooooo' very Hot");
+        
+        
+    } else if (v1) {
+
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 18. getTriangleType
 // Create a function that takes 3 sides and returns:
 // ● "Equilateral" if all are equal
