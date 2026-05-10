@@ -217,47 +217,79 @@ console.log("💻 JavaScript Function Assignment")
 
 
 
-// 17. checkTemperature
-// Write a function that takes a temperature and returns:
-// ● "Hot" if temperature is above 30
-// ● "Cold" if below 10
-// ● "Normal" otherwise
+// // 17. checkTemperature
+// // Write a function that takes a temperature and returns:
+// // ● "Hot" if temperature is above 30
+// // ● "Cold" if below 10
+// // ● "Normal" otherwise
 
-function temp(v1) {
-    if (v1>=30) {
-        console.log("'ooooo' very Hot");
+// function temp(v1) {
+//     if (v1>=30) {
+//         console.log("'ooooo' very Hot");
         
         
-    } else if (v1) {
+//     } else if (v1>=0 && v1<=10) {
+//         console.log("cold");
+        
 
         
-    }
+//     }else{
+//         console.log("nomal");
+        
+//     }
     
-}
+// }
+
+// temp(11)
+
+
+// // 18. getTriangleType
+// // Create a function that takes 3 sides and returns:
+// // ● "Equilateral" if all are equal
+// // ● "Isosceles" if any two are equal
+// // ● "Scalene" if all are different
+// function type(v1, v2, v3) {
+//     if (v1==v2 && v1==v3 && v2==v3) {
+//         console.log("equilateral");
+        
+        
+//     } else if (v1==v2 || v1==v3 || v2==v3){
+//         console.log("isosceles");
+        
+//     }
+//     else{
+//         console.log("scalene");
+        
+//     }
+    
+// }
+// type(11,11,11)
 
 
 
 
+// // 19. calculateDiscountedPrice
+// // Write a function that takes a price and discount percentage, and returns the discounted price.
+// function dis (price,percentage){
+// let disc = (price * percentage)/100;
+// return price-disc;
+// }
+// console.log(dis(450,30));
 
 
 
 
-
-
-
-
-
-
-// 18. getTriangleType
-// Create a function that takes 3 sides and returns:
-// ● "Equilateral" if all are equal
-// ● "Isosceles" if any two are equal
-// ● "Scalene" if all are different
-// 19. calculateDiscountedPrice
-// Write a function that takes a price and discount percentage, and returns the discounted
-// price.
 // 20. isPasswordValid
-// Write a function that takes a password and checks if its length is 8 characters or more.
-// Return "Valid Password" or "Too Short".
-
-
+// Write a function that takes a password and checks if its length is 8 characters or more. Return "Valid Password" or "Too Short".
+// function pas (v1) {
+//     if (v1.length >=8) {
+//         return "valid pasword"
+        
+//     } else {
+//         return"too short"
+        
+//     }
+    
+// }
+// let user= prompt("kindly enter your pasword ")
+// alert(pas(user));
